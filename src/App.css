@@ -1,0 +1,121 @@
+
+ul,
+li,
+a{
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+input{
+width: 500px;
+height: 50px;
+margin-bottom: 20px !important;
+padding: 5px;
+}
+input:focus{
+    outline: none !important;
+}
+.addbook-form button{
+    width: 500px;
+}
+img{
+    width: 300px;
+    object-fit: contain !important;
+    height: 300px !important;
+    border-radius: 50%;
+}
+h3{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 50px;
+    cursor: pointer;
+    font-size:20px !important;
+}
+.summary{
+    font-size: 10px;
+}
+.edit-btn{
+    margin-top: 20px;
+    width: 100px;
+    text-align: center;
+    padding: 6px;
+    height: 35px;
+    color: white;
+    background-color: rgb(16, 129, 12);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+.delete-btn{
+    margin-top: 10px;
+    width: 100px;
+    text-align: center;
+    padding: 6px;
+    height: 35px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+.genere{
+    font-size: 12px;
+}
+.form-sidebar{
+    position: fixed;
+}
+.form-sidebar-2{
+    /* position: absolute; */
+    margin-left: 400px;
+}
+.form-sidebar input{
+    width: 300px;
+}
+.success-message{
+    width: 300px;
+    height: 60px;
+    background-color: rgb(18, 209, 43);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.edit-btn-form{
+    margin-top: 10px;
+    width: 300px;
+    text-align: center !important;
+    padding: 6px;
+    height: 35px;
+    color: white;
+    background-color: rgb(233, 160, 24);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 10px;
+}
+.home-btn{
+    width: 100px;
+    height: 35px;
+    background-color: navy;
+    color: white;
+    padding: 2px !important;
+    border-radius: 3px !important;
+    cursor: pointer;
+}
+.success-msg{
+color: green;
+}
+span{
+    font-size: 61px;
+    color: rgb(32, 230, 180);
+}
+.head-text h1{
+    color: rgb(255, 188, 3);
+    font-weight: 800;
+}
